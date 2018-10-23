@@ -1,0 +1,15 @@
+mysql.config:
+  conn:
+    host : "10.105.200.77"
+    port : 80
+    user : "amanda"
+    passwd : "suifeng"
+    db : "ngxmonitor"
+  
+# 故障时间大于以下时长才进行记录
+fault.duration: 300
+
+write2file.path:
+  idc: "faults/idc"
+  awsor: "faults/awsor"
+  azind: "faults/azind"
