@@ -1,18 +1,18 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.1'
+version = '1.0.0'
 
-setup(name='config_parser',
+setup(name='yaml-config-parser',
       version=version,
-      description="config parser tool",
+      description="A simple yaml config parser tool",
       long_description="""\
-config parser tool""",
+A simple yaml config parser tool""",
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='config parser',
-      author='liuguanglu',
-      author_email='liuguanglu@xiaomi.com',
-      url='None',
+      author='luserv',
+      author_email='vasterlu@gmail.com',
+      url='https://github.com/luserv/config_parser',
       license='MIT',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,

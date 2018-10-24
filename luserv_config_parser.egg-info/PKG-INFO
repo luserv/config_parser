@@ -1,5 +1,5 @@
 Metadata-Version: 1.0
-Name: config-parser
+Name: luserv-config-parser
 Version: 0.1.dev0
 Summary: config parser tool
 Home-page: https://github.com/luserv/config_parser
