@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.0.1'
+version = '1.0.2'
 
 setup(name='yaml-config-parser',
       version=version,
@@ -9,10 +9,10 @@ setup(name='yaml-config-parser',
       long_description="""\
 A simple yaml config parser tool""",
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
-      keywords='config parser',
+      keywords='yaml config parser',
       author='luserv',
       author_email='vasterlu@gmail.com',
-      url='https://github.com/luserv/config_parser',
+      url='https://github.com/luserv/yaml-config-parser',
       license='MIT',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
