@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: yaml-config-parser
-Version: 1.0.0
+Version: 1.0.1
 Summary: A simple yaml config parser tool
 Home-page: https://github.com/luserv/config_parser
 Author: luserv

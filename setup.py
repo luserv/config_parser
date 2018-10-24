@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.0.0'
+version = '1.0.1'
 
 setup(name='yaml-config-parser',
       version=version,
@@ -16,7 +16,6 @@ A simple yaml config parser tool""",
       license='MIT',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
-      py_modules=['config_parser'],
       zip_safe=False,
       install_requires=[
           "pyyaml"
