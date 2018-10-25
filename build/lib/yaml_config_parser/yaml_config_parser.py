@@ -6,7 +6,8 @@ class ConfigParser(object):
 
     @classmethod
     def __init__(cls, config_file):
-        cls.configs = yaml.load(open(config_file, 'r'))
+        cls.config_file = config_file
+        cls.configs = yaml.load(open(cls.config_file, 'r'))
 
 
     @classmethod
